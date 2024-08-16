@@ -13,8 +13,8 @@ function Navbar() {
               <div className='hover:underline'>Login</div>
               <Link to='/home' className='hover:underline'>Home</Link>
               <div className='hover:underline'>Produtos</div>
-              <div className='hover:underline'>Categorias</div>
-              <div className='hover:underline'>Cadastrar Categoria</div>
+              <Link to='/categorias' className='hover:underline'>Categorias</Link>
+              <Link to='/cadastroCategoria' className='hover:underline'>Cadastrar Categoria</Link>
               <div className='hover:underline'>Perfil</div>
               <div className='hover:underline'>Sair</div>
             </div>
